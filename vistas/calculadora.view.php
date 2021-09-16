@@ -33,7 +33,9 @@
 </header>
 
 <?php
-print_r($_SERVER);
+print_r($_SERVER["SERVER_ADDR"]."<br>");
+print_r($_SERVER["QUERY_STRING"]."<br>");
+print_r($_SERVER["SCRIPT_FILENAME"]);
 ?>
 </body>
 
