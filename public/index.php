@@ -3,4 +3,4 @@
 require_once ("../kernel.php");
 
 
-require_once ("cadenes.php");
+require_once ("arrays.php");
