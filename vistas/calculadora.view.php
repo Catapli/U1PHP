@@ -14,19 +14,13 @@
 <header>
     <h2>
         <?php
+        $funcion = $_GET["funcion"];
+
         $x = $_GET['x'];
 
         $y = $_GET['y'];
-        print_r($_GET);
-        echo "<br>";
-        echo 'suma='.$x + $y;
-        echo "<br>";
-        echo 'resta='.$x - $y;
-        echo "<br>";
-        echo 'multiplicacion='.$x * $y;
-        echo "<br>";
-        echo 'division='.$x / $y;
-        echo "<br>";
+
+        calcular($x,$y,$funcion);
         ?>
     </h2>
 
