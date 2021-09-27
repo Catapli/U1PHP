@@ -23,7 +23,7 @@
     <input type="radio" name="operacion" value="resta">Restar
     <input type="radio" name="operacion" value="dividir">Dividir
     <input type="radio" name="operacion" value="multiplicar">Multiplicar<br>
-    <input type="submit">
+    <button type="submit" class="btn btn-primary">Submit</button>
 
 </form>
 
